@@ -1,9 +1,9 @@
 {
   "name": "micromark-extension-bracketed-spans",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A micromark syntax extension for Pandoc-style bracketed spans.",
-  "main": "src/syntax.mjs",
-  "types": "src/syntax.d.ts",
+  "main": "src/index.mjs",
+  "types": "src/index.d.ts",
   "type": "module",
   "scripts": {
     "test": "node src/index.test.mjs"

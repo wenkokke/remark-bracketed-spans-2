@@ -1,4 +1,4 @@
-import type { Extension } from "micromark-util-types";
+import type { Extension, HtmlExtension } from "micromark-util-types";
 
 export const types: {
     bracketedSpan: string,
@@ -21,3 +21,5 @@ export const types: {
 }
 
 export function bracketedSpanSyntax(): Extension;
+
+export function bracketedSpanHtml(): HtmlExtension;

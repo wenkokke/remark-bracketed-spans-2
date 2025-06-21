@@ -4,7 +4,7 @@ A plugin for [`remark`](https://github.com/remarkjs/remark) to support [Pandoc-s
 
 ## Why `2`?
 
-Because there is an old `remark-bracketed-spans` plugin that no longer works.
+Because there is an old [`remark-bracketed-spans`](https://www.npmjs.com/package/remark-bracketed-spans) plugin that no longer works.
 
 ## Usage
 

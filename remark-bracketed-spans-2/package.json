@@ -1,6 +1,6 @@
 {
   "name": "remark-bracketed-spans-2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A `remark` plugin for Pandoc-style bracketed spans.",
   "main": "src/index.mjs",
   "types": "src/index.d.ts",

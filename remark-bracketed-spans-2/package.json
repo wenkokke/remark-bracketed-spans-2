@@ -1,0 +1,25 @@
+{
+  "name": "remark-bracketed-spans-2",
+  "version": "1.0.0",
+  "description": "A `remark` plugin for Pandoc-style bracketed spans.",
+  "main": "src/index.mjs",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node src/index.test.mjs"
+  },
+  "author": "Wen Kokke",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "mdast-util-bracketed-spans": "workspace:*",
+    "micromark-extension-bracketed-spans": "workspace:*"
+  },
+  "devDependencies": {
+    "rehype-stringify": "^10.0.1",
+    "remark": "^15.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "to-vfile": "^8.0.0",
+    "unified": "^11.0.5"
+  }
+}

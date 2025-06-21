@@ -1,0 +1,4 @@
+packages:
+  - "mdast-util-bracketed-spans"
+  - "micromark-extension-bracketed-spans"
+  - "remark-bracketed-spans-2"

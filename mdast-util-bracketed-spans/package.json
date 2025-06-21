@@ -1,0 +1,27 @@
+{
+  "name": "mdast-util-bracketed-spans",
+  "version": "1.0.0",
+  "description": "An extension for `mdast-util-from-markdown` and `mdast-util-to-markdown` to support Pandoc-style bracketed spans.",
+  "main": "src/index.mjs",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "author": "Wen Kokke",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "test": "node src/index.test.mjs"
+  },
+  "dependencies": {
+    "parse-entities": "^4.0.2",
+    "property-information": "^7.1.0",
+    "stringify-entities": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/hast": "^3.0.4",
+    "micromark-extension-bracketed-spans": "workspace:*",
+    "hast-util-to-html": "^9.0.5",
+    "mdast": "^2.3.2",
+    "mdast-util-from-markdown": "^2.0.2",
+    "mdast-util-to-hast": "^13.2.0",
+    "mdast-util-to-markdown": "^2.1.2"
+  }
+}

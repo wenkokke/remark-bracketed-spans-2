@@ -1,6 +1,6 @@
 {
   "name": "mdast-util-bracketed-spans",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension for `mdast-util-from-markdown` and `mdast-util-to-markdown` to support Pandoc-style bracketed spans.",
   "main": "src/index.mjs",
   "types": "src/index.d.ts",

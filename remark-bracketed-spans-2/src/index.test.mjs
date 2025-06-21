@@ -1,4 +1,3 @@
-import path from "node:path";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
@@ -7,10 +6,6 @@ import remarkBracketedSpans from "./index.mjs";
 import { bracketedSpanToHast } from "mdast-util-bracketed-spans";
 import test from "node:test";
 import assert from "node:assert/strict";
-
-const rootDir = path.dirname(import.meta.dirname);
-
-const inputFile = path.join(rootDir, "input.md");
 
 const processor = await unified()
   .use(remarkParse)

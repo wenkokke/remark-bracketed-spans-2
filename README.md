@@ -47,4 +47,4 @@ Pull requests for bug fixes are welcome.
 
 ## Acknowledgements
 
-Thanks to @benrbray whose [remark-cite](https://github.com/benrbray/remark-cite) plugin was a remarkable guide when writing this plugin.
+Thanks to [@benrbray](https://github.com/benrbray) whose [remark-cite](https://github.com/benrbray/remark-cite) plugin was a remarkable guide when writing this plugin.
